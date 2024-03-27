@@ -23,7 +23,7 @@ terraform {
 
 module "some_module" {
   # renovate: datasource=github-releases depName=DigitalInnovation/terraform-mns-pagerduty extractVersion=^v(?<ref=>.*)$
-  source    = "git@github.com:PagerDuty/terraform-provider-pagerduty.git?ref=v2.0.0"
+  source    = "git@github.com:PagerDuty/terraform-provider-pagerduty.git?ref=v3.10.1"
   app_name  = "bla"
   threshold = 1
   duration  = 60
